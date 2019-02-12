@@ -65,13 +65,7 @@ public class Product {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Product)) return false;
-
         Product product = (Product) o;
-
-        if (Double.compare(product.getPrice(), getPrice()) != 0) return false;
-        if (!getCode().equals(product.getCode())) return false;
-        return getDescription().equals(product.getDescription());
+        return code.equals(product.code) && getDescription().equals(product.getDescription()) && getPrice() == product.getPrice();
     }
 }

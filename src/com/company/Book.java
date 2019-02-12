@@ -31,14 +31,7 @@ public class Book extends Product {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Book)) return false;
-        if (!super.equals(o)) return false;
-
         Book book = (Book) o;
-
-        if (getPages() != book.getPages()) return false;
-        return getAuthor().equals(book.getAuthor());
+        return (getAuthor().equals(book.getAuthor()) && getPages() == book.getPages());
     }
-
 }

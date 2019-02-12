@@ -27,5 +27,15 @@ public class Main {
         System.out.println(software);
 
         System.out.println("Number of Products :" + Product.getCount());
+
+        Book book2 =
+                new Book("Ivor Horton", 500);
+        book.setCode("123456789");
+        book.setDescription("Java Programming Book");
+        book.setPrice(49.9986);
+        System.out.println(book);
+
+        System.out.println("compare object through properties = " + book.equals(book2)); //true
+        System.out.println("compare references = "+ (book == book2));        //false
     }
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="249.42000000000002" y="0.0">com.company.Product</node>
+    <node x="229.0" y="529.0">com.company.Main</node>
+    <node x="265.0" y="313.0">com.company.Book</node>
+    <node x="0.0" y="301.0">com.company.Software</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Software" target="com.company.Product">
+      <point x="0.0" y="-89.0" />
+      <point x="122.5" y="276.0" />
+      <point x="285.92" y="276.0" />
+      <point x="-73.0" y="125.5" />
+    </edge>
+    <edge source="com.company.Book" target="com.company.Product">
+      <point x="0.0" y="-77.0" />
+      <point x="366.0" y="276.0" />
+      <point x="358.92" y="276.0" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Software">
+      <point x="-69.19999999999999" y="-28.0" />
+      <point x="246.3" y="509.0" />
+      <point x="61.25" y="509.0" />
+      <point x="-61.25" y="89.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Book">
+      <point x="0.0" y="-28.0" />
+      <point x="-50.5" y="77.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Product">
+      <point x="69.19999999999999" y="-28.0" />
+      <point x="384.7" y="509.0" />
+      <point x="477.5" y="509.0" />
+      <point x="477.5" y="276.0" />
+      <point x="431.92" y="276.0" />
+      <point x="73.0" y="125.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="98.0" y="277.9090909090909" />
+  <SelectedNodes>
+    <node>com.company.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
