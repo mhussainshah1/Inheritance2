@@ -66,6 +66,6 @@ public class Product {
     @Override
     public boolean equals(Object o) {
         Product product = (Product) o;
-        return code.equals(product.code) && getDescription().equals(product.getDescription()) && getPrice() == product.getPrice();
+        return code.equals(product.code) && description.equals(product.description) && price == product.price;
     }
 }

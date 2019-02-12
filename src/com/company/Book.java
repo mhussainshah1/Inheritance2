@@ -32,6 +32,6 @@ public class Book extends Product {
     @Override
     public boolean equals(Object o) {
         Book book = (Book) o;
-        return (getAuthor().equals(book.getAuthor()) && getPages() == book.getPages());
+        return (author.equals(book.author) && pages == book.pages);
     }
 }

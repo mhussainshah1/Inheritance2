@@ -44,6 +44,6 @@ public class Software extends Product {
     @Override
     public boolean equals(Object o) {
         Software software = (Software) o;
-        return getProgrammer().equals(software.getProgrammer()) && getPlatform().equals(software.getPlatform()) && getOs().equals(software.getOs());
+        return programmer.equals(software.programmer) && platform.equals(software.platform) && os.equals(software.os);
     }
 }
