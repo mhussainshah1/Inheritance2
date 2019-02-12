@@ -28,8 +28,7 @@ public class Main {
 
         System.out.println("Number of Products :" + Product.getCount());
 
-        Book book2 =
-                new Book("Ivor Horton", 500);
+        Book book2 = new Book("Ivor Horton", 500);
         book.setCode("123456789");
         book.setDescription("Java Programming Book");
         book.setPrice(49.9986);
